@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(49, 2, 46);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+ height: 100vh;
+ overflow-x: hidden;
+ position: sticky;
+ overflow-y: scroll;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+nav{
+position:fixed;
+width: 100%;
+z-index: 9999999;
+background-color: rgb(58, 4, 54);
+}
+nav .navlists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+box-shadow: 0px 2px 17px -9px;
+}
+nav .navlists a{
+color: white ;
+font-family: ;
+}
+#headerLogo{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    opacity: 79%;
+}
+.photosContainer{
+    position: relative;
+    top: 100px;
+   min-height: 100%;
+   width: 55%;
+   display: grid;
+grid-template-columns: repeat(1, 1fr);
+column-gap: 100px;
+margin: 0 auto;
+}
+.userDet{
+    margin: 0 auto;
+
+}
+.photos img, .photos video{
+width: 55%;
+box-shadow: 0px 0px 26px 11px #110e22;
+border-radius: 11px;
+}
+.photos{
+margin: 0 auto;
+text-align: center;
+}
+.texts{
+    text-align: center;
+    line-height: .9;
+margin: 0 auto;
+width: 50%;
+padding: 20px 12px 8px 12px;
+    position: relative;
+    top: 19px;
+
+}
+.det{
+    line-height: .2;
+}
+.desc{
+    text-align: justify;
+}
+footer{
+margin: 120px 0 0 0;
+text-align: center;
+}
+.links{
+display: flex;
+justify-content: space-around;
+
+}
+.links a{
+color: blue;
+}
